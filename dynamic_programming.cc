@@ -19,12 +19,10 @@ using namespace std;
  *
  * Given an input string and a dictionary of words, find out if the input string
  * can be segmented into a space-separated sequence of dictionary words.
- *  You need to output the minimum number of words. For example, input: "aaaisaname"
-dict: ("a", "aaa", "is", "name")
-
-output: "aaa is a name"
-
-Wrong output: "a a a is a name"
+ * You need to output the minimum number of words. For example, input: "aaaisaname"
+ * dict: ("a", "aaa", "is", "name")
+ * output: "aaa is a name"
+ * Wrong output: "a a a is a name"
  */
 void
 words_min_cut() {
